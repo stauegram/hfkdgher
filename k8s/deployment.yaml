@@ -1,27 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: hao
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: hao
   template:
     metadata:
       labels:
-        app: ray
+        app: hao
     spec:
       containers:
-      - image: okteto.dev/ray:latest
-        name: ray
+      - image: okteto.dev/hao:alatest
+        name: hao
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: ""
+          value: "lcook.tw"
         - name: Vless_UUID
           value: "273d7707-9bb1-44ff-b24c-b59876344cac"
         - name: Vless_Path
