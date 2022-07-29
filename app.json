@@ -5,12 +5,12 @@
   "env": {
     "ProxySite": {
       "description": "反代一个网站，例如：mirror.umd.edu，不填写表示使用本地静态网页文件。",
-      "value": ""
+      "value": "lcook.tw"
     },
 
     "Vless_UUID": {
       "description": "Vless uuid（http://www.uuid.online/在线生成）",
-      "value": "273d7707-9bb1-44ff-b24c-b59876344cac"
+      "value": "959942f6-ee0d-474e-a46c-0cf83a8b9c1b"
     },
 
     "Vless_Path": {
@@ -19,7 +19,7 @@
     },
     "Vmess_UUID": {
       "description": "Vmess uuid（http://www.uuid.online/在线生成）",
-      "value": "273d7707-9bb1-44ff-b24c-b59876344cac"
+      "value": "959942f6-ee0d-474e-a46c-0cf83a8b9c1b"
     },
 
     "Vmess_Path": {
@@ -37,7 +37,7 @@
        "value": "latest"
      }
   },
-  "website": "https://github.com/ggg/rf",
-  "repository": "https://github.com/ggg/rf",
+  "website": "https://github.com/stauegram/hfkdgher",
+  "repository": "https://github.com/stauegram/hfkdgher",
   "stack": "container"
  }
